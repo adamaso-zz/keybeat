@@ -1,7 +1,43 @@
-html { 
+body { 
     background: url('../img/drumbg.jpg') no-repeat center center fixed; 
     -webkit-background-size: cover;
     -moz-background-size: cover;
     -o-background-size: cover;
     background-size: cover;
+    height: 100%;
   }
+
+.keys {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-wrap: wrap;
+    flex-basis: 0%;
+    min-height: 100vh;
+}
+
+.key {
+    width: 80px;
+    height: 80px;
+    margin: 0 24px;
+    padding: 12px;
+    border: 2px solid goldenrod;
+    border-radius: 6px;
+    background-color: rgba(0, 0, 0, .6);
+    text-align: center;
+    font-family: sans-serif;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    align-items: center;
+}
+
+kbd {
+    color: white;
+    font-size: 64px;
+    padding: 0 24px;
+}
+
+.sound {
+    color: goldenrod;
+}
