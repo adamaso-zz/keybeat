@@ -21,7 +21,7 @@ body {
     height: 80px;
     margin: 0 24px;
     padding: 12px;
-    border: 2px solid goldenrod;
+    border: 2px solid black;
     border-radius: 6px;
     background-color: rgba(0, 0, 0, .6);
     text-align: center;
@@ -30,6 +30,13 @@ body {
     flex-wrap: wrap;
     justify-content: center;
     align-items: center;
+    transition: all 0.06s;
+}
+
+.playing {
+    transform: scale(1.2);
+    border-color: goldenrod;
+    box-shadow: 0 0 10px #333333;
 }
 
 kbd {
@@ -40,4 +47,5 @@ kbd {
 
 .sound {
     color: goldenrod;
+    text-transform: uppercase;
 }
